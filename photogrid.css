@@ -14,3 +14,19 @@ img {
     float: left;
     margin: 1.66%;
 }
+
+/* Beginning Media Queries */
+@media screen and (max-width: 1000px){
+    img {
+        width: 45%;
+        float: left;
+        margin: 1.66%;
+    }
+}
+@media screen and (max-width: 600px){
+    img {
+        width: 90%;
+        float: left;
+        margin: 1.66%;
+    }
+}
